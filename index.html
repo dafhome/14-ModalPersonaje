@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <article class="container2">
+            <div class="diamond" id="d1" onclick=clickBlanco()></div>
+            <div class="diamond" id="d2" onclick=clickAmarillo()></div>
+        </article>
+        <article class="container2">
+            <div class="diamond" id="d3" onclick=clickAzul()></div>
+            <div class="diamond" id="d4" onclick=clickRosa()></div>
+        </article>
+    </section>
+    <main>
+        <section class="modal" id="rosa">
+            <div class="modal-window">
+                <div class="bar">
+                    <section class="button-bar">
+                        <img class="icons" src="/images/cerrar.png" onclick=cerrarRosa() alt="">
+                        <img class="icons" src="/images/minimizar.png"  onclick=minimizarRosa() alt="">
+                        <img class="icons" src="/images/completa.png" onclick=maximizarRosa() alt="">
+                    </section>
+                    <section class="bar-title">
+                        <h1>Diamante Rosa</h1>
+                    </section>
+                </div>
+               
+                <section class="container-modal" id="rosa-container" >
+                    <div class="image-modal" id="img-rosa">
+    
+                    </div>
+                    <div class="container-text-modal">
+                        <h1 class="title-modal" id="title-rosa">Diamante Rosa</h1>
+                       
+                        <p class="text-modal">Diamante Rosa (Pink Diamond en E.U.A y Diamante Rosado a veces en Latinoamérica) fue una Gema del Planeta Madre que formaba parte de la Gran Autoridad del Diamante y era la gobernante de la colonización del Planeta Tierra. Hizo su debut físico en "Selva Lunar", aunque fue primeramente mencionada en "Terrícolas".
+                        Ella fingió su destrucción para regenerarse como Rose Cuarzo y así frenar la colonización del planeta.</p>
+                        <img src="/images/steven-universe-logo.png" class="logo" alt="">
+                    </div>
+                </section>
+                
+            </div>
+        </section>
+        <section class="modal" id="azul">
+            <div class="modal-window">
+
+                <div class="bar">
+                    <section class="button-bar">
+                        <img class="icons" src="/images/cerrar.png" onclick=cerrarAzul() alt="">
+                        <img class="icons" src="/images/minimizar.png" onclick=minimizarAzul() alt="">
+                        <img class="icons" src="/images/completa.png" onclick=maximizarAzul() alt="">
+                    </section>
+                    <section class="bar-title">
+                        <h1>Diamante Azul</h1>
+                    </section>
+                </div>
+                <section class="container-modal" id="azul-container">
+                    <div class="image-modal" id="img-azul">
+    
+                    </div>
+                    <div class="container-text-modal">
+                        <h1 class="title-modal" id="title-azul">Diamante Azul</h1>
+                       
+                        <p class="text-modal">Diamante Azul (Blue Diamond en E.U.A) es una gema del Planeta Madre que debutó en el episodio "La Respuesta" como flashback, pero hizo su aparición oficial en "Los Sueños de Steven". Fue parte del grupo matriarcal "La Gran Autoridad del Diamante" que gobernaba el Planeta Madre y sus extensiones hasta el final de la Era 2. Como se muestra en "La Respuesta", es creyente de los poderes sobrenaturales de Zafiro (la capacidad de poder ver el futuro).</p>
+                        <img src="/images/steven-universe-logo.png" class="logo" alt="">
+                    </div>
+                </section>
+                
+            </div>
+        </section>
+        <section class="modal" id="amarillo">
+            <div class="modal-window">
+                <div class="bar">
+                    <section class="button-bar">
+                        <img class="icons" src="/images/cerrar.png" alt="" onclick=cerrarAmarillo()>
+                        <img class="icons" src="/images/minimizar.png" onclick=minimizarAmarillo() alt="">
+                        <img class="icons" src="/images/completa.png" onclick=maximizarAmarillo() alt="">
+                    </section>
+                    <section class="bar-title">
+                        <h1>Diamante Amarillo</h1>
+                    </section>
+                </div>
+                <section class="container-modal" id="amarillo-container">
+                    <div class="image-modal" id="img-amarillo">
+    
+                    </div>
+                    <div class="container-text-modal">
+                        <h1 class="title-modal" id="title-amarillo">Diamante Amarillo</h1>
+                       
+                        <p class="text-modal">Diamante Amarillo (Yellow Diamond en E.U.A) es una Gema del Planeta Madre que formó parte de La Gran Autoridad del Diamante. Debutó físicamente en el episodio "Mensaje Recibido". Diamante Amarillo usa una camisa con división triangular amarilla y dorada, en su primera aparición usa una gran falda transparente pero más adelante lleva una cola corta de color amarillo muy claro que llega hasta sus muslos, lleva unas hombreras algo puntiagudas color limón.</p>
+                        <img src="/images/steven-universe-logo.png" class="logo" alt="">
+                    </div>
+                </section>
+                
+            </div>
+        </section>
+        <section class="modal" id="blanco">
+            <div class="modal-window">
+                <div class="bar">
+                    <section class="button-bar">
+                        <img class="icons" src="/images/cerrar.png" onclick=cerrarBlanco() alt="">
+                        <img class="icons" src="/images/minimizar.png" onclick=minimizarBlanco() alt="">
+                        <img class="icons" src="/images/completa.png" onclick=maximizarBlanco() alt="">
+                    </section>
+                    <section class="bar-title">
+                        <h1>Diamante Blanco</h1>
+                    </section>
+                </div>
+                <section class="container-modal" id="blanco-container">
+                    <div class="image-modal" id="img-blanco">
+    
+                    </div>
+                    <div class="container-text-modal">
+                        <h1 class="title-modal" id="title-blanco">Diamante Blanco</h1>
+                       
+                        <p class="text-modal">Diamante Blanco (White Diamond en E.U.A.) es una gema del Planeta Madre, fue miembro y líder de la Gran Autoridad del Diamante. Debutó en el episodio "Piernas del Planeta Madre". Diamante Blanco posee cabello blanco puntiagudo de forma similar a una estrella de cinco puntas, además de tener tez pálida. Se muestra que es de una estatura mayor a la de sus compañeras Diamantes.</p>
+                        <img src="/images/steven-universe-logo.png" class="logo" alt="">
+                    </div>
+                </section>
+                
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>©David Alvarez </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

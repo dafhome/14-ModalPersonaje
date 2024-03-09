@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 89.7vh;
+    background-image: url(images/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:30%;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+footer{
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+}
+
+main{
+    position: relative;
+}
+/*Diseño de botones izquierda*/
+
+.diamond {
+    width: 100px;
+    height: 100px;
+    /* background-color: blue; */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.868);
+    cursor:url(images/cursor2.png);
+}
+
+#d1 {
+    /* box-shadow: 10px 10px 10px 10px pink; */
+    background-color: #FFFFFF;
+}
+
+#d2 {
+    /* box-shadow: 10px 10px 10px 10px pink; */
+    background-color: #F5EC0A;
+}
+
+#d3 {
+    /* box-shadow: 10px 10px 10px 10px pink; */
+    background-color: #55C1EA;
+}
+
+#d4 {
+    /* box-shadow: 10px 10px 10px 10px pink; */
+    background-color: #FF9DCA;
+}
+
+.container,
+.container2 {
+    display: flex;
+    gap: 12px;
+}
+
+.container2 {
+    flex-direction: column;
+    
+}
+
+.container {
+    margin-top: 140px;
+    margin-left: 70px;
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+    
+}
+
+/*añadir este css en java con un delay para mostrar los rombos*/
+/* .container{
+    opacity: 0;
+    transition:opacity 1000ms;
+} */
+
+
+/*Diseño ventana modal*/
+
+.icons{
+    width: 25px ;
+    
+}
+.modal{
+    display: none;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+}
+.bar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 30px;
+    background-color: #EEEDEC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 30px 10px 30px;
+
+}
+
+.button-bar{
+
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+.bar-title{
+    /* background-color: blue; */
+    position: absolute;
+    left: 40%;
+    padding: 5px 50px 5px 50px;
+    
+    border-radius: 10px;
+    border: 2px solid #808080;
+    color: #808080;
+    
+}
+
+.container-modal{
+    display: flex;
+    justify-content: center;
+    /* width: 900px; */
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.659);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+}
+.container-modal{
+    padding: 30px;
+    gap: 50px;
+
+}
+.logo{
+    width: 200px;
+}
+.image-modal{
+    width: 400px;
+    height: auto;
+    /* background-color: blanchedalmond; */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container-text-modal{
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.title-modal{
+    font-size: 50px;
+    text-align: center;
+
+}
+.text-modal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    hyphens: auto;
+    line-height: 35px;
+}
+
+#title-rosa{
+    color:#FF9DCA;
+    text-shadow: 1px 1px 1px #FFBAD9;
+}
+#title-azul{
+    color:#55C1EA;
+    text-shadow: 1px 1px 1px #BCEDED;
+}
+#title-amarillo{
+    color:#F5EC0A;
+    text-shadow: 1px 1px 1px #FFFFA2;
+}
+#title-blanco{
+    color:#FFFFFF;
+    text-shadow: 2px 2px 2px #808080;
+}
+
+#img-rosa{
+    background-image: url(/images/pink.png);
+}
+#img-azul{
+    background-image: url(/images/blue.png);
+}
+#img-amarillo{
+    background-image: url(/images/yellow.png);
+}
+#img-blanco{
+    background-image: url(/images/white.png);
+}
+
+/* #azul{
+    display: none;
+}
+#rosa{
+    display: none;
+}
+#amarillo{
+    display: none;
+}
+#blanco{
+    display: none;
+} */
+/* 
+#rosa{
+    display: flex;
+    top: 60vh;
+} */
