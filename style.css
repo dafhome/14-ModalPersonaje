@@ -88,11 +88,14 @@ main{
     
 }
 .modal{
-    display: none;
-    justify-content: center;
-    width: 100%;
-    position: absolute;
-}
+/*añadir este css en java con un delay para mostrar los rombos*/
+/* .container{
+    opacity: 0;
+    transition:opacity 1000ms;
+} */
+
+
+/*Diseño ventana modal*/}
 .bar{
     display: flex;
     position: relative;
